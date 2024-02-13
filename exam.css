@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(84, 227, 227);
+}
+h1{
+    display: flex;
+    justify-content: center;
+    border: 0px;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+    border: 0px;
+}
+.gallery img:hover{
+    background-color: blanchedalmond;
+}
+.gallery img{
+    padding: 10px 20px;
+}
+.write{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    margin-top: -20%;
+    font-size: 150%;
+    color: rgb(255, 255, 255);
+    
+}
+@media only screen and (max-width: 780px){
+    body{
+        background-color: blueviolet;
+    }
+    .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%; 
+    max-width: 1200px;
+
+    }
+}
+.gallery{
+    background-color: blueviolet;
+    min-height: 500px; 
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
